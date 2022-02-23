@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <!-- <script src="jquery-3.6.0.min.js"></script> -->
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <section id="inicio">
+        <div class="container1">
+            <div>
+                <img src="firstTo.png" alt="" srcset="">
+            </div>
+            <div class="text-inicio">
+                <h1>Lista de Tarefas</h1>
+                    <p>Não deixe para amanhã o que você pode fazer hoje</p>
+                <input type="text" name="" id="entra-nome" placeholder="Digite o seu primeiro nome" value="" required ></br>
+                <button id="btnEntrar" onclick="addYourName()">Entrar</button> 
+            </div>
+        </div>
+    </section> 
+
+    <section id="segundo"> 
+        <div class="container2">
+            <div class="coluna1">
+                <h2 id="add-nome"></h2>
+                <img src="second.svg" alt="">
+                <h1>O que você</h1>
+                <h3>planeja fazer hoje?</h3>
+            </div>
+
+            <div class="coluna2">
+                <h2>Lista de Tarefas</h2>
+                    <div id="toDo-List" class="container-list"></div>
+                    <div id="new-item">
+                        <input type="text" name="" id="addTarefa" placeholder="Digite e pressione enter para adicionar a tarefa" >
+                    </div>
+                <button id="btn-limpar">Limpar Lista</button>
+            </div>
+<script src="todo.js" defer></script>
+</body>
+</html>
