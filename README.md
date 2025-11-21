@@ -42,4 +42,4 @@ cd to-do-list
 
 Você pode acessar por meio do link abaixo o projeto online hospedado na plataforma netlify
 ```bash
-https://to-list-tarefas.netlify.app/
+https://fernanda-borg3s.github.io/to-do-list/
